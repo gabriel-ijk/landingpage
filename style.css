@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    @import url("fonts/roboto/stylesheet.css")
+}
+body {
+    background-color: #09040f;
+    background-image: linear-gradient(360deg, #09040f, rgba(0, 0, 0, 0.5)), linear-gradient(140deg, #ee0c0c, #ff9659 22%, #D73802 38%, #2B2B2B 57%, #011c34 75%, #000000);
+}
+.container {
+    margin-left: 7vw;
+    margin-right: 7vw;
+    font-family: Arial, sans-serif;
+    padding-bottom: 128px;
+}
+.container-wrapper {
+    margin-left: 7vw;
+    margin-right: 7vw;
+    font-family: Arial, sans-serif;
+    padding-bottom: 128px;
+}
+.logo{
+    margin-left:-7rem;
+    width: 13rem;
+}
+.col-lg-3{
+    color: white;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: #F29459;
+}
+.navbar-nav .nav-item .nav-link{
+    font-weight: bold;
+}
+.bt-inicio {
+    text-decoration: none;
+    color: #FF9659;
+    border-bottom: 2px solid #FF9659;
+    text-shadow: 0 0 1px white;
+}
+.bt-nav {
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+}
+.bt-nav:hover {
+    color: #FF9659;
+    transition: color 0.3s ease;
+    text-shadow: 0 0 1px white;
+}
+.titulo {
+    font-family: 'PresicavU1', Arial, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 75px;
+    margin-top: 4vh;
+    color: white;
+}
+.text {
+    font-size: 20px;
+    color: #FF9659;
+    font-family: 'PresicavRg', Arial, sans-serif;
+    font-weight: bold;
+}
+.btn {
+    font-family: 'PresicavRg', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #DA3301;
+    margin-left: -1vh;
+    width: 100%;
+    height: 8vh;
+    transition: transform 0.3s ease;
+}
+.btn:hover {
+    background-color: #EC110B;
+    color: white;
+    transform: translateY(-2px);
+}
+.text-btn {
+    color: #FF9659;
+    font-weight: bold;
+    font-size: 2.5vh;
+}
+iframe {
+    display: flex;
+    margin-left: 2vh;
+    margin-top: 20vh;
+}
+.titulo2 {
+    font-family: 'PresicavU1', Arial, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 52px;
+    color: white;
+}
+.subt {
+    font-family: 'PresicavU1', Arial, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 15px;
+    color: #D73802;
+}
+.card {
+    background-color: #181628;
+    margin-bottom: 16px;
+    padding: 1rem;
+    width: 100%;
+    height: 18rem;
+    border-radius: 1rem;
+}
+.img-card {
+    width: 13vh;
+}
+.titulo-card {
+    font-family: 'PresicavU1', Arial, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    font-size: 20px;
+}
+.card-txt {
+    font-size: 17px;
+    color: #FF9659;
+    font-family: 'PresicavRg', Arial, sans-serif;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1380px) {
+    .text-btn{
+        margin-top: 2vh;
+    }
+  }
